@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<!-- Header of page -->
+	<div><h2>Pizza Collector!</h2></div>
+	
+	<!-- container for instructions -->
+	<div id="instructions">
+		<p>You will be given a random number at the start of the game.</p>
+		<p>There are four Ninja Turtles below.  By clicking on a Ninja Turtle you will add a specific amount of points to your total score.</p>
+		<p>You win the game by matching your total score to random numbers, you lose the game if your total score goes above the random number.</p>
+		<p>The value of each Ninja Turtle is hidden from you until you click on it.</p>
+		<p>Each time the game starts, the game will change the values of each crystal.</p>
+	</div>
+
+	<!-- container for computers guess -->
+	<div id="computerGuess">
+		
+	</div>
+
+	<!-- container for win/loss record-->
+	<div id="results">
+		<p id="alert"></p>
+		<p id="win">Wins: 00</p>
+		<p id="lose">Losses: 00</p>
+	</div>
+
+	<!-- container for images with randomly gen values-->
+	<div id="imageContainer">
+
+	</div>
+
+	<!-- container for users current score -->
+	<div id="userScore">
+		
+	</div>
+
+	<!-- script which contains games code -->
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>
