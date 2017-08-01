@@ -1,4 +1,84 @@
+body {
+	background-image: url(../images/pizzas.gif)
+}
+h2 {
+	background-color: #ede176;
+	width: 18%;
+	border: 3px solid black;
+	margin: 0 0 19px 10px;
+}
 .turtle_image {
 	width: 125px;
 	height: 125px;
+	margin: 0 10px 0 10px;
+	border: 3px solid black;
+	clear: both;
 }
+#imageContainer{
+	clear:both;
+	margin-bottom: 19px
+}
+#instructions {
+	width: 50%;
+	background-color: #f90c0c;
+	border: 3px solid black;
+	margin: 0 0 19px 10px;
+}
+.computerGuessContainer {
+	background-color: #ef8a07;
+	border: 3px solid black;
+	margin: 5px 0 19px 10px;
+	width: 17%;
+	position: relative;
+	float: left;
+}
+#computerGuessText {
+	position: relative;
+	height: 98px;
+	width: 17%;
+	margin-right: 0;
+	font-size: 30px;
+	padding: 20px 0 0 0;
+}
+#computerGuess {
+	background-color: #ef8a07;
+	position:relative;
+	float:left;
+	border: 3px solid black;
+	margin: 5px 0 0 5px;
+	font-size: 30px;
+	height: 35px;	
+	width: 8%;
+	text-align: center;
+	padding: 41px 15px 41px 15px;
+}
+#results {
+	position: relative;
+	float: left;
+	background-color: #61c60d;
+	margin: 5px 30px 19px 5px;
+	border: 3px solid black;
+	padding: 0 4px;
+	height: 118px;
+}
+#totalScore {
+	background-color: #4af747;
+	margin: 0 0 0 10px;
+	width: 17%;
+	height: 98px;
+	font-size: 30px;
+	padding: 20px 0 0 0;
+	border: 3px solid black;
+	float: left;
+}
+#userScore {
+	font-size: 30px;
+	background-color: #4af747;
+	border: 3px solid black;
+	height: 35px;
+	margin: 0 0 40px 5px;
+	float: left;
+	padding: 41px 15px 41px 15px;
+	width: 8%;
+	text-align: center;
+	}

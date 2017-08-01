@@ -42,7 +42,6 @@ function imageValue() {
 }
 
 //Initiates loop for image creation and value assigning
-
 function imageGen() {
 	for (var i = 0; i < 4; i += 1) {
 		
@@ -104,7 +103,7 @@ imageGen();
 			//check to see if the user won the game
 			if (userScore === computerGuessValue) {
 				wins = wins + 1;
-				$("#win").html(wins);
+				
 				$("#alert").html("You win!")
 
 				//Reset the game after a win
@@ -119,7 +118,7 @@ imageGen();
 			//check to see if the user won the game
 			} else if (userScore >= computerGuessValue) {
 				losses = losses + 1;
-				$("#lose").html(losses);
+				
 				$("#alert").html("You lose!")
 
 				//Reset the game after a loss
@@ -134,5 +133,7 @@ imageGen();
 			}
 
 		})
+			$("#win").html("Wins: " + wins);
+			$("#lose").html("Losses: " + losses);
 	})
 })
